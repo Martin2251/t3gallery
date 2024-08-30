@@ -5,7 +5,7 @@ export default function RootLayout({
   }: Readonly<{ children: React.ReactNode }>) {
     return (
       <div>
-        <div className="w-full">first layout</div>
+        <div className="w-full">second layout</div>
         {children}
       </div>
     );
