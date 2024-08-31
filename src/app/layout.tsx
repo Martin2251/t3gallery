@@ -13,6 +13,7 @@ function TopNav (){
   return (
     <nav className="flex items-center justify-between p-4 text-xl font-semibold">
       <div>Gallery</div>
+      <div>Sign in</div>
     </nav>
 
   )
@@ -24,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
     
-      <body>
+      <body className=" flex flex-col gap-4">
       <TopNav  />
         {children}
         
